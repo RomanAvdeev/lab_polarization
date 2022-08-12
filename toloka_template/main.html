@@ -1,0 +1,27 @@
+<div class="text">{{text}}</div>
+
+<div class="alert-placeholder"></div>
+
+<div class="classes">
+    <input type="hidden" class="task-id" />
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="without_polarization"
+            value="without_polarization">
+        <label class="form-check-label" for="without_polarization">Не поляризовано</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="other_topic" value="other_topic">
+        <label class="form-check-label" for="other_topic">Не относится к теме</label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div class="input-group">
+            <input type="text" class="form-control pole-name" placeholder="Название полюса" required>
+        </div>
+    </div>
+    <div class="col">
+        <button type="button" class="btn btn-light" id="add-pole">Добавить полюс</button>
+    </div>
+</div>
